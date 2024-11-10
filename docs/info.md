@@ -9,11 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Input[7:0] - Inout[7:0]
+Output = Input[7:0] >> Inout[7:0]
 
 ## How to test
 
-The LEDs should print the difference of the switches.
+The LEDs will output the shifted value of Output = Input[7:0] >> Inout[7:0].
 
 ## External hardware
 
